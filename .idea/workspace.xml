@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="126aa101-5a28-4f1d-bf9a-42529b908cc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/io/conduktor/demos/demos/kafka/ConsumerDemoCooperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producder-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producder-wikimedia/src/main/java/io/conduktor/demos/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.applicationServers"
   }
 }]]></component>
@@ -55,20 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.conduktor.demos.demos.kafka.ConsumerDemoCooperative">
-    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.demos.kafka.ConsumerDemo" />
-      <module name="udermy_kafka_beginer_2022.kafka-basics.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.conduktor.demos.demos.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
     <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.demos.kafka.ProducerDemoKeys" />
       <module name="udermy_kafka_beginer_2022.kafka-basics.main" />
@@ -82,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoWithCallback" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.demos.kafka.ProducerDemoWithCallback" />
-      <module name="udermy_kafka_beginer_2022.kafka-basics.main" />
+    <configuration name="WikimediaChangesProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.wikimedia.WikimediaChangesProducer" />
+      <module name="udermy_kafka_beginer_2022.kafka-producder-wikimedia.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.conduktor.demos.demos.kafka.*" />
+          <option name="PATTERN" value="io.conduktor.demos.kafka.wikimedia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,20 +114,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="udermy_kafka_beginer_2022 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.WikimediaChangesProducer" />
       <item itemvalue="Application.io.conduktor.demos.demos.kafka.ConsumerDemoCooperative" />
-      <item itemvalue="Application.ConsumerDemo" />
       <item itemvalue="Application.io.conduktor.demos.demos.kafka.ConsumerDemoWithShutdown" />
       <item itemvalue="Application.ProducerDemoKeys" />
-      <item itemvalue="Application.ProducerDemoWithCallback" />
+      <item itemvalue="Gradle.udermy_kafka_beginer_2022 [dependencies]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Gradle.udermy_kafka_beginer_2022 [dependencies]" />
         <item itemvalue="Application.io.conduktor.demos.demos.kafka.ConsumerDemoCooperative" />
         <item itemvalue="Application.ProducerDemoKeys" />
         <item itemvalue="Application.io.conduktor.demos.demos.kafka.ConsumerDemoWithShutdown" />
-        <item itemvalue="Application.ConsumerDemo" />
-        <item itemvalue="Application.ProducerDemoWithCallback" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656327326489</updated>
-      <workItem from="1656327328562" duration="17017000" />
+      <workItem from="1656327328562" duration="22845000" />
     </task>
     <servers />
   </component>
