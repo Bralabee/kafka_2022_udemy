@@ -23,7 +23,7 @@ public class WikimediaChangeHandler implements EventHandler {
 
 
     @Override
-    public void onOpen() throws Exception {
+    public void onOpen() {
         // notthing required when stream is open
 
     }
@@ -43,7 +43,7 @@ public class WikimediaChangeHandler implements EventHandler {
     }
 
     @Override
-    public void onComment(String comment) throws Exception {
+    public void onComment(String comment)  {
         // nothing required
 
     }
