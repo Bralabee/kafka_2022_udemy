@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="126aa101-5a28-4f1d-bf9a-42529b908cc8" name="Changes" comment="real consumer example innit">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer-opensearch/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/io/conduktor/demos/kafka/OpenSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/io/conduktor/demos/kafka/OpenSearchConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.kafka-consumer-opensearch: Compose Deployment">
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
     <configuration name="OpenSearchConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.OpenSearchConsumer" />
       <module name="udermy_kafka_beginer_2022.kafka-consumer-opensearch.main" />
@@ -158,9 +159,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.kafka-consumer-opensearch: Compose Deployment" />
-        <item itemvalue="Application.OpenSearchConsumer" />
         <item itemvalue="Application.WikimediaChangesProducer" />
+        <item itemvalue="Application.OpenSearchConsumer" />
+        <item itemvalue="Docker.kafka-consumer-opensearch: Compose Deployment" />
         <item itemvalue="Gradle.udermy_kafka_beginer_2022 [dependencies]" />
         <item itemvalue="Application.io.conduktor.demos.demos.kafka.ConsumerDemoCooperative" />
       </list>
@@ -176,7 +177,7 @@
       <updated>1656327326489</updated>
       <workItem from="1656327328562" duration="23874000" />
       <workItem from="1656487492891" duration="813000" />
-      <workItem from="1656490043253" duration="9797000" />
+      <workItem from="1656490043253" duration="14270000" />
     </task>
     <task id="LOCAL-00001" summary="real example innit">
       <created>1656436619647</created>

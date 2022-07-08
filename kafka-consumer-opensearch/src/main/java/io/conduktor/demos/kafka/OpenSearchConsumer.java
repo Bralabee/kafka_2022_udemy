@@ -105,7 +105,7 @@ public class OpenSearchConsumer {
         // create our Kafka Client
         KafkaConsumer<String, String> consumer = createKafkaConsumer();
 
-        // we need to create the index on OpenSearch if it doesn't exist already
+        // create the index on OpenSearch if it doesn't exist already
 
         try(openSearchClient; consumer){
 
